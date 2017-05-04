@@ -1,39 +1,16 @@
 {
-  "device": {
-    "id": "esp8266_173AC7"
-  },
-  "debug": {
-    "level": 2
-  },
   "mqtt": {
     "enable": true, 
     "server": "192.168.0.100:1883", 
-    "client_id": "", 
     "user": "admin", 
-    "pass": "050684851", 
-    "reconnect_timeout_min": 2, 
-    "reconnect_timeout_max": 60, 
-    "ssl_cert": "", 
-    "ssl_key": "", 
-    "ssl_ca_cert": "", 
-    "ssl_cipher_suites": "", 
-    "ssl_psk_identity": "", 
-    "ssl_psk_key": "", 
-    "clean_session": true, 
-    "keep_alive": 60, 
-    "will_topic": "", 
-    "will_message": ""
+    "pass": "050684851" 
   },
   "wifi": {
     "sta": {
       "enable": true, 
       "ssid": "Barkai_Nadav", 
       "pass": "000619175d26", 
-      "ip": "", 
-      "netmask": "", 
-      "gw": "192.168.0.1", 
-      "nameserver": "", 
-      "dhcp_hostname": ""
+      "gw": "192.168.0.1" 
     }
   }
 }
